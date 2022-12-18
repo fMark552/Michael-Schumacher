@@ -1,0 +1,63 @@
+h1, h2 {
+	font-variant: small-caps;
+    margin: 10px;
+}
+h1 {
+    border-bottom: 1px solid blue;
+    width: 80%;
+}
+
+div.fénykép img{
+    margin: 10px;
+    border: 1px solid blue;
+    width: 150px;
+    height: auto;
+    float: right;
+}
+
+table {
+    margin: 0px auto;
+    padding: 10px;
+    width:80%;
+    border: 1px solid blue;
+}
+
+tr:nth-child(even) {
+    background-color: cornflowerblue;
+}
+
+td:last-child {
+    text-align: right;
+}
+
+body{
+    color: navy;
+    font-family: Verdana, Arial;
+}
+#tartalom{
+    width: 960px;
+    height: 100vh;
+    margin-top: 0px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: skyblue;
+    border-left: double blue 15px;
+}
+a{
+    color: white;
+}
+a:link{ 
+    text-decoration: none; 
+}
+a:visited{ 
+    text-decoration: none; 
+}
+a:hover{ 
+    text-decoration: none; 
+}
+p{
+    margin: 10px;
+    text-align: justify;
+}
